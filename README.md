@@ -1,6 +1,8 @@
 
 # Cross-Course project
 
+![Screenshot of my project](https://github.com/Arvydas-Mikalauskis/gamehub/blob/main/gamhub1.PNG)
+
 GameHub
 
 The first project that I ever build, designed in figma, ant on later modules build with HTML and CSS. The requirements for website was;
