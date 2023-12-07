@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Page with the input form for purchase.">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+      <link rel="stylesheet" href="styles.css" />
+      <title>Input Form</title>
+    </head>
+  </head>
+  <body>
+    <header>
+        <div class="topnav">
+          <a href="index.html">
+            <img class="logo" src="images/GameHub_Logo.png" alt="Webpage Logo" />
+          </a>
+            <input class="search-bar" type="text" placeholder="Search" />
+            <ul class="log-in">
+            <a href="#">
+              <li>Log In / Sign Up</li>
+            </ul>
+            </a>
+        </div>
+        <div class="product-page-nav">
+            <nav class="navbar">
+              <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Product-page.html">Product Page</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+                <li><a href="Checkout-input.html">Checkout Input</a></li>
+                <li><a href="Checkout-success.html">Checkout Success</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <h1 class="checkout">Checkout</h1>
+      <div class="summary">
+        <h2>SUMMARY</h2>
+        <p>Forge Legend 34$</p>
+        <p>Cyberpunk 48$</p>
+        <p>TOTAL 82$</p><br>
+        <img src="icons/bank cards.png" alt="">   
+        <img class="trust" src="icons/Trustpilot Mini.png" alt="">   
+      </div>
+        <div class="personal-infromation">
+            <h2>Personal Information</h2>
+            <img class="ecomerce-icon1" src="icons/Ecommerce_4.png" alt="">
+            <form>
+              <div>                
+              <label for="first_name">First Name</label><br>
+              <input type="text" id="first_name" name="first_name"><br>
+              <label for="last_name">Last Name</label><br>
+              <input type="text" id="last_name" name="last_name"><br>
+              <label for="email">Your email</label><br>
+              <input type="email" id="email" name="email"><br>
+              <label for="phone">Phone number</label><br>
+              <input type="tel" name="phone" id="phone">
+              </div>
+              <div>
+                <h2>Shipping Adress</h2>
+                <label for="Adress">Street adress</label><br>
+                <input type="text" id="Adress" name="Adress"><br>
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city"><br>
+              </div>
+            </form>
+          </div>
+          <div class="payment-details">
+            <h2>PAYMENT DETAILS</h2>
+            <img class="ecomerce-icon1" src="icons/Ecommerce_34.png" alt="">
+            <form>
+              <label for="card">Payment Card Nr.</label><br>
+              <input type="text" id="card" name="card"><br>
+              <label for="card-name">Card Holder Name</label><br>
+              <input type="text" id="card-name" name="card-name"><br>
+              <label for="card-date">Expiration Date</label><br>
+              <input type="text" id="card-date" name="card-date"><br>
+              <label for="cvv">CVV/CVC</label><br>
+              <input type="text" id="cvv" name="cvv"><br>
+              <button class="payment-btn"><a href="Checkout-success.html">PROCEED TO PAYMENT</a></button>
+            </form>
+          </div>
+    </main>
+    <footer>
+      <div class="soc-media-container">
+        <img class="soc-media-icons" src="icons/Discord - Original.png" alt="">
+        <img class="soc-media-icons" src="icons/Vector.png" alt="">
+        <img class="soc-media-icons" src="icons/Twitter - Original.png" alt="">
+        <img class="soc-media-icons" src="icons/Instagram - Original.png" alt="">
+        <img class="soc-media-icons" src="icons/Reddit - Original.png" alt="">
+      </div>
+      <h2 class="partners-title">OUR PARTNERS</h2>
+      <div class="partners">
+        <img class="partners-icons" src="icons/5375-playstation_102558 1.png" alt="">
+        <img class="partners-icons" src="icons/microsoft_xbox_xbox360_2158 1.png" alt="">
+        <img class="partners-icons" src="icons/nintendo_icon_146136 1.png" alt="">
+      </div>
+      <div class="contact-bar">
+        <h3>Contact Us</h3>
+      </div>
+      <div class="contact-us-links">
+        <div>
+          <h4>Business development</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>business@gamehub.com</span> </p>
+        </div>
+        <div>
+          <h4>Legal department</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>legal@gamehub.com</span></p>
+        </div>
+        <div>
+          <h4>Quostions about purchases</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span>quostions@gamehub.com</span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

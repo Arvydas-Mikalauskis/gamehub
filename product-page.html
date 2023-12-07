@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This page shows chosen game description, scrheenshots, before adding it to cart .">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Queries.css">
+    <title>Product page</title>
+  </head>
+  <body>
+    <header>
+        <div class="topnav">
+          <a href="index.html">
+            <img class="logo" src="images/GameHub_Logo.png" alt="Webpage Logo" />
+          </a>
+            <input class="search-bar" type="text" placeholder="Search" />
+            <ul class="log-in">
+            <a href="#">
+              <li>Log In / Sign Up</li>
+            </ul>
+            </a>
+        </div>
+        <div class="product-page-nav">
+            <nav class="navbar">
+              <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Product-page.html">Product Page</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+                <li><a href="Checkout-input.html">Checkout Input</a></li>
+                <li><a href="Checkout-success.html">Checkout Success</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <div class="product-review">
+        <img class="product-cover" src="images/assets/GameHub_covers10.jpg" alt="Forge legend game cover">
+        <h1 class="product-name">Forge legend <span class="forge-legend-price">34$</span></h1>
+        <p class="choice-of-consoles">Playbox/Playstation</p>
+        <p class="product-genre">Genre: Role-Play / Adventure / Action</p>
+        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum quis vero quidem repudiandae excepturi voluptatem inventore quia soluta. Explicabo, voluptatibus consequatur. Neque alias dolorum blanditiis labore tempore officia deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error unde commodi hic necessitatibus earum magni velit reprehenderit eos? Totam optio nobis corporis, ex sed consectetur illo cumque laborum ab?</p>
+        <button class="buy-product-btn"><a href="checkout.html">ADD TO CART</a></button>
+        <button class="read-more-btn"><a href="#">Play Trailer</a></button>    
+      </div>
+      <div class="horizontal-line">
+        <h2 class="scrn-bar-line">Screenshots</h2>
+      </div>
+      <div class="image-carousel">
+        <div class="image-carousel-container" id="image-carousel-container">
+          <img class="game-scrn" src="images/Screenshots/1.jpg" alt="Screenshot of the game">
+          <img class="game-scrn" src="images/Screenshots/2.jpg" alt="Screenshot of the game">
+          <img class="game-scrn" src="images/Screenshots/3.jpg" alt="Screenshot of the game">
+          <img class="game-scrn" src="images/Screenshots/4.jpg" alt="Screenshot of the game">
+        </div>
+        <div class="carousel-buttons-container">
+          <button class="carousel-btn" id="leftBtn">Previous</button>
+          <button class="carousel-btn" id="rightBtn">Next</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="soc-media-container">
+        <img class="soc-media-icons" src="icons/Discord - Original.png" alt="Discord icon">
+        <img class="soc-media-icons" src="icons/Vector.png" alt="Facebook icon">
+        <img class="soc-media-icons" src="icons/Twitter - Original.png" alt="Twitter icon">
+        <img class="soc-media-icons" src="icons/Instagram - Original.png" alt="Instagram icon">
+        <img class="soc-media-icons" src="icons/Reddit - Original.png" alt="Reddit icon">
+      </div>
+      <div class="about-us-links">
+        <div class="company-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="About-us.html">About Us</a></li>
+            <li><a href="About-us.html">Contact</a></li>
+            <li><a href="About-us.html">Career</a></li>
+          </ul>
+        </div>
+        <div class="help-column">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">How to activate games</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="community-column">
+          <h3>Community</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Giveaways</a></li>
+            <li><a href="#">Become Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="payment-methods">
+          <h3>Payment Methods</h3>
+          <img src="icons/Visa.png" alt="Visa bank card icon">
+          <img src="icons/Mastercard.png" alt="Mastercad bank car icon">
+          <img src="icons/Klarna.png" alt="Klarna icon">
+          <img src="icons/PayPal.png" alt="Paypal icon">
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+@media (max-width: 880px) {
+  .promo-description button {
+    background-color: green;
+    max-width: 10rem;
+    max-height: 2.5rem;
+    font-size: 0.8rem;
+  }
+
+  .promo-game-cover {
+    max-width: 15em;
+    max-height: 15.625rem;
+    margin-right: 1rem;
+  }
+
+  .promo-description {
+    margin-left: 20rem;
+  }
+
+  #gradient-text {
+    width: 70%;
+  }
+
+  .memeber-benefit-icons {
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 8rem;
+  }
+
+  .member-benefit-text {
+    font-size: 8px;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+
+  .bestsellers-container,
+  .latest-releases-container {
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  .game-scrn {
+    max-width: 100%;
+  }
+
+  .product-review {
+    max-width: 100%;
+    grid-template-columns: repeat(4, 10rem);
+    column-gap: 0.5rem;
+  }
+
+  .product-cover {
+    max-width: 18rem;
+  }
+
+  .buy-product-btn {
+    max-height: 3rem;
+    max-width: 8rem;
+    grid-column: 2 / 3;
+  }
+
+  .read-more-btn {
+    grid-column: 3 /4;
+    max-height: 3rem;
+    max-width: 8rem;
+  }
+
+  .first-buy,
+  .second-buy {
+    max-width: 24rem;
+  }
+
+  .summary-tab {
+
+  }
+}
