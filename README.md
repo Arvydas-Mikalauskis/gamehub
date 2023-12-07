@@ -9,7 +9,7 @@ The first project that I ever build, designed in figma, ant on later modules bui
 
 The target audience of people between 18-25 years old who would like to purchase games or sell them. 
 
-The site architecture; 
+<strong>The site architecture; </strong>
 <ul>
   <li>List of games</li>
   <li>A games page showing the product details (product details such as the description of the product, price and add to cart button)</li>
