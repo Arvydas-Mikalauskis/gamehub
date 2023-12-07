@@ -5,7 +5,7 @@
 
 GameHub
 
-The first project that I ever build, designed in figma, ant on later modules build with HTML and CSS. The requirements for website was;
+The first project that I ever build, designed in figma, and on later modules build with HTML and CSS. The requirements for website was;
 
 The target audience of people between 18-25 years old who would like to purchase games or sell them. 
 
