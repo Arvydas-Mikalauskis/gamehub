@@ -10,14 +10,15 @@ The first project that I ever build, designed in figma, ant on later modules bui
 The target audience of people between 18-25 years old who would like to purchase games or sell them. 
 
 The site architecture; 
+<ul>
+  <li>List of games</li>
+  <li>A games page showing the product details (product details such as the description of the product, price and add to cart button)</li>
+  <li>Checkout page</li>
+  <li>Checkout success</li>
+  <li>About</li>
+  <li>Contact</li>
+</ul>
 
-Home
-List of games
-A games page showing the product details (product details such as the description of the product, price and add to cart button)
-Checkout page
-Checkout success
-About
-Contact
 
 On later modules site been implemented with call from API to display games list, and single game with description. 
 
